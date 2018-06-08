@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.jinjin.hack</string>
+	<key>Program</key>
+	<string>/usr/bin/hack</string>
+	<key>StandardErrorPath</key>
+	<string>/dev/null</string>
+	<key>SessionCreate</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/hack</string>
+	</array>
+	<key>inetdCompatibility</key>
+	<dict>
+		<key>Wait</key>
+		<false/>
+	</dict>
+	<key>Sockets</key>
+	<dict>
+		<key>Listeners</key>
+		<dict>
+			<key>SockServiceName</key>
+			<string>2333</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
